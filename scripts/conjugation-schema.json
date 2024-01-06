@@ -1,0 +1,91 @@
+{
+    "infinitive": "verb",
+    "Gerund": "conj",
+    "Past_Participle": "conj",
+    "Indicative": {
+        "Present": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Preterite": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Imperfect": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Conditional": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Future": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        }
+    },
+    "Subjunctive": {
+        "Present": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Imperfect": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Future": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        }
+    },
+    "Imperative": {
+        "Affirmative": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        },
+        "Negative": {
+            "yo": "conj",
+            "tú": "conj",
+            "él/ella/Ud.": "conj",
+            "nosotros": "conj",
+            "vosotros": "conj",
+            "ellos/ellas/Uds.": "conj"
+        }
+    }
+}
