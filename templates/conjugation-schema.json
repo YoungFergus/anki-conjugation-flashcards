@@ -8,7 +8,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Preterite": {
@@ -16,7 +15,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Imperfect": {
@@ -24,7 +22,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Conditional": {
@@ -32,7 +29,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Future": {
@@ -40,7 +36,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         }
     },
@@ -50,7 +45,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Imperfect": {
@@ -58,7 +52,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Future": {
@@ -66,7 +59,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         }
     },
@@ -76,7 +68,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         },
         "Negative": {
@@ -84,7 +75,6 @@
             "tú": "conj",
             "él/ella/Ud.": "conj",
             "nosotros": "conj",
-            "vosotros": "conj",
             "ellos/ellas/Uds.": "conj"
         }
     }
