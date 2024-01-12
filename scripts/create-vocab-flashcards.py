@@ -7,6 +7,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 class Base_Flashcard():
+    """ 
+    Flashcard class meant to be inherited by all others flashcards
+    Shouldn't be called directly
+    """
     def __init__(self) -> None:
         pass
 
@@ -15,10 +19,14 @@ class Base_Flashcard():
             if value is None:
                 setattr(self, key, "")
 
-        all_attributes = dir(self)
-        property_names = [attr for attr in all_attributes if not attr.startswith('__')]
+        # Create a list in order of the properties
+        property_values = [value for key, value in vars(self).items()]
 
-        df.loc[df.index.max() + 1] = [self.prop for prop in property_names]
+        df.loc[df.index.max() + 1] = property_values
+
+    def get_atts(self):
+        values = [value for key, value in vars(self).items()]
+        return values
 
 class Vocab_Flashcard(Base_Flashcard):
     def __init__(self) -> None:
@@ -71,14 +79,7 @@ else:
 flashcard.translation = resp["Translation"]
 flashcard.ex = resp["Example"]
 flashcard.ex_eng = resp["Example_Translation"]
-"""
-{
-  "Spanish_Word": "tiroteo",
-  "Translation": "shooting (incident)",
-  "pos": ["noun", "masculine"],
-  "Example": "El tiroteo ocurrió en el centro de la ciudad.",
-  "Example_Translation": "The shooting incident occurred in the city center."
-}
-"""
+
+flashcard.export(df=df)
 
 df.to_csv(Path('outputs/spanish-vocab-db.csv'), index=False)
